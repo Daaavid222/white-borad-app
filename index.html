@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="un-redo-btn">撤销</div>
+      <div class="un-redo-btn">重做</div>
+      <div id="draw-btn">多边形画笔</div>
+    </header>
+    <div id="main-content">
+      <div id="left-content">
+        <div id="white-borad"></div>
+      </div>
+      <div id="right-content">
+        <div id="none-content">请选择一个元素</div>
+        <div id="attribute-tab">
+          <div>
+            <span>填充颜色</span><input type="color" id="color-picker" />
+          </div>
+          <div id="to-top-btn" class="layer-btn">置于顶层</div>
+          <div id="to-bottom-btn" class="layer-btn">置于底层</div>
+        </div>
+      </div>
+    </div>
+    <div id="info-widget"></div>
+  </body>
+  <script src="./js/index.js" type="module"></script>
+</html>
